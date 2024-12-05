@@ -1,27 +1,62 @@
-# Leadtrack
+# LeadTrack Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+## 📖 Sobre o Projeto
 
-## Development server
+Este repositório contém o **frontend** do projeto **LeadTrack CRM**, desenvolvido com **Angular**. O objetivo do frontend é fornecer uma interface amigável e responsiva para gerenciar leads, acompanhar interações e visualizar relatórios.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Habilidades que Estou Desenvolvendo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Frontend
+- **Angular**: Framework para construção de aplicações web SPA (Single Page Application).
+- **Bootstrap**: Framework CSS para design responsivo.
+- **HTML/CSS**: Construção de layouts acessíveis e estilização customizada.
+- **TypeScript**: Linguagem que adiciona tipagem ao JavaScript.
 
-## Build
+### Integração com Backend
+- **Serviços HTTP**: Comunicação com a API Node.js para gerenciamento de dados.
+- **Observables (RxJS)**: Trabalhando com dados assíncronos de maneira reativa.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 📂 Estrutura do Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+/leadtrack-frontend ├── /src │ ├── /app │ │ ├── /components # Componentes reutilizáveis │ │ ├── /services # Serviços para integração com a API │ │ ├── /models # Interfaces e modelos de dados │ │ └── app.module.ts # Módulo principal │ ├── /assets # Imagens e arquivos estáticos │ ├── /environments # Configurações de ambiente (dev/prod) │ └── index.html # HTML principal ├── angular.json # Configuração do Angular CLI ├── package.json # Dependências do projeto └── README.md # Documentação do projeto frontend
 
-## Running end-to-end tests
+yaml
+Copiar código
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🌟 Funcionalidades Planejadas
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. **Interface para Cadastro de Leads**:  
+   - Formulário para adicionar novos leads.
+
+2. **Listagem de Leads**:  
+   - Tabela dinâmica para visualizar e gerenciar leads existentes.
+
+3. **Dashboard de Relatórios**:  
+   - Exibição gráfica de métricas, como taxa de conversão de leads.
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- **Angular**: Framework para desenvolvimento do frontend.
+- **Bootstrap**: Framework CSS para responsividade.
+- **TypeScript**: Linguagem de tipagem estática para JavaScript.
+- **RxJS**: Biblioteca para programação reativa.
+
+---
+
+## 🚀 Próximos Passos
+
+1. **Implementar navegação e rotas** para diferentes seções do aplicativo.
+2. **Criar um serviço de autenticação** para proteger o acesso aos dados.
+3. **Melhorar a experiência do usuário** com feedback visual e mensagens de erro.
+
+---
+
+> Este projeto complementa o **LeadTrack CRM Backend** e juntos oferecem uma solução completa para gerenciamento de leads. 😊
