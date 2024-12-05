@@ -22,10 +22,19 @@ Este repositório contém o **frontend** do projeto **LeadTrack CRM**, desenvolv
 
 ## 📂 Estrutura do Projeto
 
-/leadtrack-frontend ├── /src │ ├── /app │ │ ├── /components # Componentes reutilizáveis │ │ ├── /services # Serviços para integração com a API │ │ ├── /models # Interfaces e modelos de dados │ │ └── app.module.ts # Módulo principal │ ├── /assets # Imagens e arquivos estáticos │ ├── /environments # Configurações de ambiente (dev/prod) │ └── index.html # HTML principal ├── angular.json # Configuração do Angular CLI ├── package.json # Dependências do projeto └── README.md # Documentação do projeto frontend
-
-yaml
-Copiar código
+/leadtrack-frontend <br>
+├── /src <br>
+│ ├── /app <br> 
+│ │ ├── /components # Componentes reutilizáveis <br>
+│ │ ├── /services # Serviços para integração com a API <br>
+│ │ ├── /models # Interfaces e modelos de dados <br>
+│ │ └── app.module.ts # Módulo principal <br>
+│ ├── /assets # Imagens e arquivos estáticos <br>
+│ ├── /environments # Configurações de ambiente (dev/prod) <br>
+│ └── index.html # HTML principal <br>
+├── angular.json # Configuração do Angular CLI <br>
+├── package.json # Dependências do projeto <br>
+└── README.md # Documentação do projeto frontend <br>
 
 ---
 
@@ -59,4 +68,6 @@ Copiar código
 
 ---
 
-> Este projeto complementa o **LeadTrack CRM Backend** e juntos oferecem uma solução completa para gerenciamento de leads. 😊
+> Este projeto complementa o **crm-lead-manager-api** e juntos oferecem uma solução completa para gerenciamento de leads. 😊
+<br>
+Author: Guilherme Vieira 
